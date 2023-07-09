@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.nocrysforyou.switchtotems.mixins",
+  "client": [
+    "ConnectionAccessor",
+    "KeyMappingMixin",
+    "MinecraftMixin",
+    "MultiPlayerGameModeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
