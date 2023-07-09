@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "switchtotems",
+  "version": "${version}",
+  "name": "SwitchTotems",
+  "description": "Switch totems from anywhere by pressing F. It's not a hack®, you have to click™.",
+  "authors": [
+    "NoCrysForYou"
+  ],
+  "contact": {
+    "homepage": "https://github.com/NoCrysForYou/SwitchTotems",
+    "sources": "https://github.com/NoCrysForYou/SwitchTotems",
+    "issues": "https://github.com/NoCrysForYou/SwitchTotems/issues",
+    "email": "nocrysforyou@rambler.ru"
+  },
+  "license": "FMBL (Custom License)",
+  "icon": "assets/switchtotems/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.nocrysforyou.switchtotems.SwitchTotemsFabric"
+    ],
+    "modmenu": [
+      "io.github.nocrysforyou.switchtotems.SwitchTotemsMM"
+    ]
+  },
+  "mixins": [
+    "switchtotems.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "modmenu": "*"
+  }
+}

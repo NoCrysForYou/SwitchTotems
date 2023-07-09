@@ -1,0 +1,16 @@
+{
+  "switchtotems.title": "Конфиг SwitchTotems",
+  "switchtotems.slogan": "Это не чит®, тебе надо кликать™.",
+  "switchtotems.enabled": "Включено",
+  "switchtotems.scrollStartDelay": "Задержка начала скролла",
+  "switchtotems.swapDelay": "Задержка перекладывания",
+  "switchtotems.scrollEndDelay": "Задержка конца скролла",
+  "switchtotems.closeDelay": "Задержка закрытия",
+  "switchtotems.toggle": "Переключить мод",
+  "switchtotems.toggle.true": "SwitchTotems включён!",
+  "switchtotems.toggle.false": "SwitchTotems выключен!",
+  "switchtotems.config": "Открыть конфиг",
+  "switchtotems.category": "SwitchTotems",
+  "modmenu.summaryTranslation.switchtotems": "Это не чит®, тебе надо кликать™.",
+  "modmenu.descriptionTranslation.switchtotems": "Перекладывай тотемы из любого места, используя F. Это не чит®, тебе надо кликать™."
+}

@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://maven.fabricmc.net/' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+
+rootProject.name = 'SwitchTotems'
+include 'shared'
+include 'fabric-1.18.2'
+include 'fabric-1.19.2'
+include 'fabric-1.19.3'
+include 'fabric-1.19.4'
+include 'fabric-1.20.1'

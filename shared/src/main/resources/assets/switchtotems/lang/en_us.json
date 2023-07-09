@@ -1,0 +1,16 @@
+{
+  "switchtotems.title": "SwitchTotems Config",
+  "switchtotems.slogan": "It's not a hack®, you have to click™.",
+  "switchtotems.enabled": "Enabled",
+  "switchtotems.scrollStartDelay": "Scroll Start Delay",
+  "switchtotems.swapDelay": "Swap Delay",
+  "switchtotems.scrollEndDelay": "Scroll End Delay",
+  "switchtotems.closeDelay": "Close Delay",
+  "switchtotems.toggle": "Toggle Mod",
+  "switchtotems.toggle.true": "SwitchTotems enabled!",
+  "switchtotems.toggle.false": "SwitchTotems disabled!",
+  "switchtotems.config": "Open Config",
+  "switchtotems.category": "SwitchTotems",
+  "modmenu.summaryTranslation.switchtotems": "It's not a hack®, you have to click™.",
+  "modmenu.descriptionTranslation.switchtotems": "Switch totems from anywhere by pressing F. It's not a hack®, you have to click™."
+}
