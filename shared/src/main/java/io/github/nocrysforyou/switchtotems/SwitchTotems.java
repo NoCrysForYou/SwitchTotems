@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Random;
 
 /**
  * Shared SwitchTotems class.
@@ -16,6 +17,17 @@ import java.nio.file.Path;
 public class SwitchTotems {
     public static final Logger LOG = LoggerFactory.getLogger("SwitchTotems");
     public static final Gson GSON = new Gson();
+    public static final Random RANDOM = new Random();
+    public static final int[][] SLOTS = {
+            {0, 1, 2, 3, 4, 5, 6, 7, 8},
+            {13},
+            {22, 12, 14},
+            {21, 23, 31},
+            {30, 32},
+            {11, 15, 20, 24, 29, 33},
+            {10, 16, 19, 25, 28, 34},
+            {9, 17, 18, 26, 27, 35}
+    };
     public static boolean swapping;
     public static boolean ensureYourFreedomIsRespectedByFilthyServerAntiCheats;
     public static boolean ensureYourFreedomIsSecuredFromNastyServerAdmins;
@@ -61,6 +73,15 @@ public class SwitchTotems {
             Files.writeString(file, GSON.toJson(json));
         } catch (Exception e) {
             LOG.warn("Unable to save SwitchTotems config.", e);
+        }
+    }
+
+    public static void shuffleArray(int[] array) {
+        for (int i = array.length - 1; i > 0; i--) {
+            int index = RANDOM.nextInt(i + 1);
+            int prev = array[index];
+            array[index] = array[i];
+            array[i] = prev;
         }
     }
 }

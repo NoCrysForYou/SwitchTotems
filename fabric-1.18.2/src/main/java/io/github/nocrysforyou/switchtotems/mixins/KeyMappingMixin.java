@@ -1,5 +1,6 @@
 package io.github.nocrysforyou.switchtotems.mixins;
 
+import io.github.nocrysforyou.switchtotems.SwitchTotems;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
@@ -7,7 +8,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import io.github.nocrysforyou.switchtotems.SwitchTotems;
 
 @Mixin(KeyMapping.class)
 public class KeyMappingMixin {
