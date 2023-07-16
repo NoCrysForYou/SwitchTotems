@@ -5,7 +5,7 @@ Switch totems from anywhere by pressing F.
 
 ## Download
 
-Download [here](releases/latest).
+Download [here](https://github.com/NoCrysForYou/SwitchTotems/releases/latest).
 
 ## License
 
